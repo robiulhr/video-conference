@@ -1,0 +1,130 @@
+.conference_img {
+  width: 47%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-sizing: border-box;
+  transition: background-color 0.2s, box-shadow 0.3s, color 0.2s;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.conference_img img {
+  width: 100%;
+}
+.conference_options {
+  margin: 40px auto;
+  text-align: center;
+}
+.start_meeting {
+  display: inline-block;
+  position: relative;
+}
+.start_meeting a {
+  display: contents;
+  text-decoration: none;
+}
+.conference_options img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.start_meeting a > button {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 0px 10px 0px 40px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  letter-spacing: 0.5px;
+  margin: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+}
+.start_meeting a button:hover {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  background-color: #185abc;
+}
+.conference_options span {
+  margin: 0px 15px 0px 0px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.conferense_join {
+  display: inline-block;
+}
+.conferense_join input {
+  background: url(./1200px-Keyboard-icon_Wikipedians.svg.png);
+  background-size: 25px 15px;
+  background-repeat: no-repeat;
+  background-position: 15px 16px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  height: 48px;
+  padding: 11px 20px 10px 48px;
+}
+.Join_meeting {
+  display: inline-block;
+  position: relative;
+}
+.Join_meeting a img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.Join_meeting a > button {
+  background-color: #fff;
+  border: 1px solid #185abc;
+  color: #185abc;
+  padding: 0px 10px 0px 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  letter-spacing: 0.5px;
+  margin: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+}
+.Join_meeting a button:hover {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  background-color: #dadce0;
+}
+
+/*extra Small devices*/
+@media (min-width: 0px) {
+  .conference_img {
+    width: 80%;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .conference_img {
+    width: 80%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .conference_img {
+    width: 80%;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .conference_img {
+    width: 60%;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .conference_img {
+    width: 55%;
+  }
+}
